@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name":" LD01 LOUNGE CHAIR",
+        "price": 2000,
+        "image": "DSC0079_Dexter Kim.webp"
+    },
+    {
+        "id": 2,
+        "name":" LD02 LOUNGE CHAIR",
+        "price": 2500,
+        "image": "Good-Nights-Sleep-Pack-Expanded-Two-Good-Co.webp"
+    },
+    {
+        "id": 3,
+        "name":" LD03 LOUNGE CHAIR",
+        "price": 2900,
+        "image": "GreyRust.webp"
+    },
+    {
+        "id": 4,
+        "name":" LD04 LOUNGE CHAIR",
+        "price": 2000,
+        "image": "Helping-Hands-Pack-Expanded-Two-Good-Co.webp"
+    },
+    {
+        "id": 5,
+        "name":" LD05 LOUNGE CHAIR",
+        "price": 3000,
+        "image": "JTG_2919 copy.webp"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 2000,
+        "image": "Rectangle 220.webp"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 2000,
+        "image": "Two Hugs Candle Two Good Co.webp"
+    },
+    {
+        "id": 8,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 2000,
+        "image": "_0273612f-9864-402b-a998-0ec3306b1ccd.jpeg"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 2000,
+        "image": "Two Hugs Candle Two Good Co.webp"
+    }
+
+]

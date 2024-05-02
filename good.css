@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    color: #fff;
+    background-color: #000;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #9cbdbd;
+}
+
+#nav img, .col img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#nav{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav #nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#links{
+    padding: 10px;
+}
+#links a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+    font-size: 25px;
+    margin-right: 35px;
+}
+#icons{
+    padding: 10px;
+}
+#icons i{
+    font-size: 25px;
+    margin-right: 40px;
+    font-weight: 100;
+}
+
+#page1 {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    padding: 0 1vw;
+    padding-top: 20vh;
+
+}
+
+#page1 h1 {
+    font-size: 15.8vw;
+    text-transform: uppercase;
+    font-family: futura;
+    line-height: 14vw;
+    letter-spacing: -8px;
+}
+
+#video-con {
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    margin-top: 1vw;
+    position: relative;
+}
+
+#video-con video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#video-con #play {
+    padding: 3vw 2.2vw;
+    background-color: black;
+    color: #fff;
+    font-size: 1.3vw;
+    position: fixed;
+    text-transform: uppercase;
+    font-family: futura;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+
+}
+
+#page2{
+     min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 3vw;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.ele{
+    height: 100%;
+    width: 31%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ele > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.ele > .dets {
+    height: 40px;
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    background-color:bisque;
+}
+#shop{
+    font-size: 20px;
+    position: relative;
+    border: 0px;
+    background-color: bisque;
+    margin-top: 15px;
+}
+.dets a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.dets:hover{
+    background-color: rgb(69, 59, 46);
+}
+#page3 {
+    min-height: 120vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.page {
+    height: 54vh;
+    width: 38vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page img {
+    height: 100%;
+}
+.page h3{
+    position: absolute;
+    padding-top: 400px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.page p{
+    position: absolute;
+    padding-top: 470px;
+}
+
+#cur{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%) scale(0);
+
+}
+#page4{
+    height: 30vw;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #102222;
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col:nth-child(2),.col:nth-child(3){
+    flex-basis: 15%;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email{
+    width: fit-content;
+    border-bottom: 1px solid #000;
+    margin: 20px 0;
+}
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+form{
+    padding-bottom: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    margin-bottom: 50px;
+}
+form .ri-mail-line{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+form button{
+    background-color: transparent;
+    border: 0;
+    outline:none;
+    cursor: pointer;
+}
+form button .ri-arrow-right-line{
+    font-size: 16px;
+    color: #ccc;
+}
+.ri-instagram-line,.ri-twitter-x-line,.ri-whatsapp-line{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+.copy{
+    text-align: center;
+}
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #767676 ;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+.underline span{
+    width:25x;
+    height: 100%;
+    background: #000;
+    border-radius:3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+@media(max-width:600px){
+    #page1{
+        min-height: 70vh;
+        width: 100%;
+        padding: 0 3vw;
+        padding-top: 25vh;
+    }
+    #page1 h1{
+        font-size: 16vw;
+        line-height: 14vw;
+        letter-spacing: -3px;
+    }
+    #video-con{
+        height: 25vh;
+        margin-top: 3vw;
+    }
+    #video-con #play {
+        padding: 9.5vw 7.5vw;
+        font-size: 4.5vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-transform: uppercase;
+        font-family: futura;
+        border-radius: 50%;
+        opacity: 1;
+        scale: 1;
+    }
+    #page2{
+       min-height: 100vh;
+       width: 100%;
+       position: relative;
+       display: flex;
+       padding: 5vw 3vw;
+       text-align: center;
+       background-color: azure;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+   
+   .ele{
+       height: 100vh;
+       width: 100%;
+       overflow: hidden;
+       margin-bottom: 3vw;
+   }
+   .dets{
+    height: 40px;
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    background-color:bisque;
+   }
+
+   footer{
+    bottom: unset;
+   }
+   .col{
+    flex-basis: 100%;
+   }
+   .col:nth-chil(2), .col:nth-child(3){
+    flex-basis: 100%;
+   }
+}

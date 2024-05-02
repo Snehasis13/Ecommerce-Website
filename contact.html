@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-color: #edf6ff;
+            width: 95%;
+            font-size: 14px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+        #nav img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#nav{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#links{
+    padding: 10px;
+}
+#links a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 400;
+    font-size: 25px;
+    margin-right: 35px;
+}
+#icons{
+    padding: 10px;
+}
+#icons i{
+    font-size: 25px;
+    margin-right: 40px;
+    font-weight: 100;
+}
+
+.container{
+    width: 75%;
+    margin: 30px 250px;
+}
+        .contact{
+            background-color: #b9f3f3;
+            display: flex;
+            border-radius: 50px;
+        }
+        .left{
+            flex-basis: 60%;
+            padding: 40px 60px;
+        }
+        .right{
+            flex-basis: 40%;
+            padding: 40px;
+            background-color: #c9c7bf;
+            color: #000;
+            border-radius: 50px;
+        }
+        h1{
+            margin-bottom: 10px;
+            font-size: 50px;
+            text-align: center;
+            background: linear-gradient(to right,red,blue);
+            color: transparent;
+            -webkit-background-clip: text;
+            text-shadow: 0 0 60px rgba(255,0,0,0.457);
+            animation: anime 1s infinite alternate;
+        }
+        .container p{
+            margin-bottom: 40px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .input-row{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .input-group{
+            flex-basis: 45%;
+        }
+        input{
+            width: 100%;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            font-size: 15px;
+            padding-bottom: 5px;
+        }
+        textarea{
+            width: 100%;
+            border: 1px solid #ccc;
+            outline: none;
+            padding: 10px;
+            background-color: transparent;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+        label{
+            margin-bottom: 6px;
+            display: block;
+            color: #32064a;
+            font-size: 18px;
+        }
+        button{
+            background: linear-gradient(to right,#ffe53b,#ff2525);
+            color: transparent;
+            width: 100px;
+            border: none;
+            outline: none;
+            color: #fff;
+            height: 35px;
+            border-radius: 30px;
+            margin-top: 20px;
+        }
+        button:hover{
+            background: linear-gradient(to right,#2afeb7,#08C792);
+            color: rgb(32, 31, 31);
+        }
+        .left h3{
+            color: #1c00b5;
+            font-weight: 600;
+            font-size: 25px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .right h3{
+            font-weight: 600;
+            margin-bottom: 30px;
+            font-size: 25px;
+            text-align: center;
+        }
+        tr td:first-child{
+            padding-right: 20px;
+            font-size: 18px;
+        }
+        tr td{
+            padding-top: 20px;
+            font-size: 18px;
+        }
+        @keyframes anime {
+            100%{
+                text-shadow: 0 0 60px rgba(21,0,255,0.457);
+            }
+        }
+        .chat a {
+            display: inline-block;
+            background-color: #007bff; 
+            color: #fff; 
+            margin-top: 100px;
+            margin-left: 125px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .chat a:hover {
+            background-color: #6dd2a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="nav">
+            <img src="_0273612f-9864-402b-a998-0ec3306b1ccd.jpeg">
+        <div id="nav2">
+            <div id="links">
+                <a href="http://127.0.0.1:5501/good.html">Home</a>
+                <a href="http://127.0.0.1:5501/AboutUs.html">About Us</a>
+                <a href="http://127.0.0.1:5501/shop.html">Shop</a>
+                <a href="http://127.0.0.1:5501/contact.html">Contact Us</a>
+            </div> 
+            <div id="icons">
+                <i class="ri-menu-fill"></i> 
+                <i class="ri-shopping-cart-2-line"></i>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+        <h1>Connect with us</h1>
+        <p>We would love to respond to your queries and help you succed.<br>
+            Feel free to get in touch with us.
+            <div class="contact">
+                 <div class="left">
+                    <h3>Send your request</h3>
+                    <form>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" placeholder="Your Name Please" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="number" placeholder="Your Number" required>
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email " placeholder="xyz@gmail.com" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="number" placeholder="Product Demo" required>
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="Your message"></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                 </div>
+                 <div class="right">
+                    <h3>Reach Us</h3>
+                    <table>
+                        <tr>
+                            <td>Email</td>
+                            <td>XYZ@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td>+91 012 345 6789</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>Jalandhar - Delhi G.T. Road<br> Phagwara, Punjab (India)- <br> 144411</td>
+                        </tr>
+                    </table>
+                    <div class="chat">
+                        <a href="http://localhost:3000" target="_blank">Chat with Us</a>
+                    </div>
+                 </div>
+            </div>
+        </p>
+    </div>
+    </div>
+</body>
+</html>
